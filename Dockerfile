@@ -17,7 +17,7 @@ COPY app/ /app
 EXPOSE 7001
 
 # Comando para ejecutar la aplicación con Gunicorn en el puerto 7001
-CMD ["gunicorn", "-w", "5", "-b", "0.0.0.0:7007", "--timeout", "300", "app:app"]
+CMD ["gunicorn", "-w", "5", "-b", "0.0.0.0:7001", "--timeout", "300", "app:app"]
 
 
 
