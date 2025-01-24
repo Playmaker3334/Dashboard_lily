@@ -14,7 +14,7 @@ RUN pip install --no-cache-dir -r requirements.txt
 COPY app/ /app
 
 # Exponer el puerto que usará Flask
-EXPOSE 7007 
+EXPOSE 7001
 
 # Comando para ejecutar la aplicación con Gunicorn en el puerto 7001
 CMD ["gunicorn", "-w", "5", "-b", "0.0.0.0:7007", "--timeout", "300", "app:app"]
