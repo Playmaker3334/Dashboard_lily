@@ -1,0 +1,30 @@
+version: '3.8'
+
+services:
+  bancoppel_web:
+    build:
+      context: .  # Usa el Dockerfile en el directorio actual
+    container_name: bancoppel_dashboard
+    restart: always
+    ports:
+      - "8012:7001"  # Redirige el puerto 7001 del contenedor al host
+    environment:
+      - DB_HOST=${DB_HOST}
+      - DB_USER=${DB_USER}
+      - DB_PASSWORD=${DB_PASSWORD}
+      - DB_NAME=${DB_NAME}
+      - SERVER_IP=0.0.0.0  # Exponer en todas las interfaces
+    volumes:
+      - ./logs:/app/logs  # Logs persistentes
+    networks:
+      - app-network
+    env_file:
+      - .env  # Cargar variables de entorno
+
+networks:
+  app-network:
+    driver: bridge
+
+
+
+

@@ -1,0 +1,833 @@
+2024-10-21 17:57:32,418 DEBUG: Starting Bancoppel database connection
+2024-10-21 17:57:32,418 DEBUG: Starting Bancoppel database connection
+2024-10-21 17:57:32,419 DEBUG: Bancoppel database connection established
+2024-10-21 17:57:32,419 DEBUG: Bancoppel database connection established
+2024-10-21 17:57:33,175 DEBUG: Starting Bancoppel database connection
+2024-10-21 17:57:33,176 DEBUG: Bancoppel database connection established
+2024-10-21 17:57:33,232 DEBUG: Starting Bancoppel database connection
+2024-10-21 17:57:33,233 DEBUG: Bancoppel database connection established
+2024-10-21 17:57:34,011 DEBUG: Starting Bancoppel database connection
+2024-10-21 17:57:34,011 DEBUG: Bancoppel database connection established
+2024-10-21 17:57:34,086 DEBUG: Starting Bancoppel database connection
+2024-10-21 17:57:34,087 DEBUG: Bancoppel database connection established
+2024-10-21 17:57:34,944 DEBUG: Starting Bancoppel database connection
+2024-10-21 17:57:34,945 DEBUG: Bancoppel database connection established
+2024-10-21 17:57:35,038 DEBUG: Starting Bancoppel database connection
+2024-10-21 17:57:35,039 DEBUG: Bancoppel database connection established
+2024-10-21 17:57:36,298 DEBUG: Starting Bancoppel database connection
+2024-10-21 17:57:36,299 DEBUG: Bancoppel database connection established
+2024-10-21 17:57:36,370 DEBUG: Starting Bancoppel database connection
+2024-10-21 17:57:36,371 DEBUG: Bancoppel database connection established
+2024-10-21 17:57:38,518 DEBUG: Starting Bancoppel database connection
+2024-10-21 17:57:38,519 DEBUG: Bancoppel database connection established
+2024-10-21 17:57:38,530 DEBUG: Starting Bancoppel database connection
+2024-10-21 17:57:38,531 DEBUG: Bancoppel database connection established
+2024-10-21 17:57:42,404 DEBUG: Starting Bancoppel database connection
+2024-10-21 17:57:42,405 DEBUG: Bancoppel database connection established
+2024-10-21 17:57:42,475 DEBUG: Starting Bancoppel database connection
+2024-10-21 17:57:42,476 DEBUG: Bancoppel database connection established
+2024-10-21 17:57:49,435 DEBUG: Starting Bancoppel database connection
+2024-10-21 17:57:49,436 DEBUG: Bancoppel database connection established
+2024-10-21 17:57:49,480 DEBUG: Starting Bancoppel database connection
+2024-10-21 17:57:49,481 DEBUG: Bancoppel database connection established
+2024-10-21 17:58:03,048 DEBUG: Starting Bancoppel database connection
+2024-10-21 17:58:03,049 DEBUG: Bancoppel database connection established
+2024-10-21 17:58:03,070 DEBUG: Starting Bancoppel database connection
+2024-10-21 17:58:03,071 DEBUG: Bancoppel database connection established
+2024-10-21 17:58:29,244 DEBUG: Starting Bancoppel database connection
+2024-10-21 17:58:29,244 DEBUG: Bancoppel database connection established
+2024-10-21 17:58:29,332 DEBUG: Starting Bancoppel database connection
+2024-10-21 17:58:29,333 DEBUG: Bancoppel database connection established
+2024-10-21 17:59:20,983 DEBUG: Starting Bancoppel database connection
+2024-10-21 17:59:20,983 DEBUG: Bancoppel database connection established
+2024-10-21 17:59:21,015 DEBUG: Starting Bancoppel database connection
+2024-10-21 17:59:21,016 DEBUG: Bancoppel database connection established
+2024-10-21 18:00:21,438 DEBUG: Starting Bancoppel database connection
+2024-10-21 18:00:21,439 DEBUG: Bancoppel database connection established
+2024-10-21 18:00:21,471 DEBUG: Starting Bancoppel database connection
+2024-10-21 18:00:21,472 DEBUG: Bancoppel database connection established
+2024-10-21 18:01:21,913 DEBUG: Starting Bancoppel database connection
+2024-10-21 18:01:21,914 DEBUG: Bancoppel database connection established
+2024-10-21 18:01:21,948 DEBUG: Starting Bancoppel database connection
+2024-10-21 18:01:21,948 DEBUG: Bancoppel database connection established
+2024-10-21 18:02:32,990 DEBUG: Starting Bancoppel database connection
+2024-10-21 18:02:32,991 DEBUG: Bancoppel database connection established
+2024-10-21 18:02:32,991 DEBUG: Starting Bancoppel database connection
+2024-10-21 18:02:32,991 DEBUG: Bancoppel database connection established
+2024-10-21 18:02:50,826 DEBUG: Request to /api/bancoppel_sale_exercises/182 received with date range:  - , page: 1, page_size: 10000
+2024-10-21 18:02:50,826 INFO: Iniciando la conexión a la base de datos roleplay_demorp6
+2024-10-21 18:03:11,865 ERROR: Error en la consulta a la base de datos: 2003 (HY000): Can't connect to MySQL server on '137.184.208.240:3306' (111)
+2024-10-21 18:03:21,145 DEBUG: Starting Bancoppel database connection
+2024-10-21 18:03:21,146 DEBUG: Bancoppel database connection established
+2024-10-21 18:09:21,624 DEBUG: Starting Bancoppel database connection
+2024-10-21 18:09:21,624 DEBUG: Starting Bancoppel database connection
+2024-10-21 18:09:21,625 DEBUG: Bancoppel database connection established
+2024-10-21 18:09:21,625 DEBUG: Bancoppel database connection established
+2024-10-21 18:09:41,693 DEBUG: Request to /api/bancoppel_sale_exercises/182 received with date range: 2022-01-01 - 2022-12-31, page: 1, page_size: 10000
+2024-10-21 18:09:41,694 INFO: Iniciando la conexión a la base de datos roleplay_demorp6
+2024-10-21 18:09:42,551 INFO: Conexión a la base de datos roleplay_demorp6 exitosa
+2024-10-21 18:09:42,637 DEBUG: Ejecutando la consulta: 
+            SELECT 
+                saex_id,
+                saex_user,
+                saex_useCases,
+                saex_useCasesTitle,
+                saex_username,
+                saex_retroContents,
+                saex_closingContents,
+                saex_DateTime,
+                saex_iterations,
+                saex_score,
+                saex_scoreData,
+                saex_sold,
+                saex_rp_id,
+                saex_rp_email,
+                saex_rp_activity,
+                saex_rp_client
+            FROM 
+                sale_exercises
+            WHERE 
+                saex_useCases IN (%s)
+                AND saex_DateTime BETWEEN %s AND %s
+            LIMIT %s OFFSET %s
+         con parámetros: (182, '2022-01-01', '2022-12-31', 10000, 0)
+2024-10-21 18:09:47,636 INFO: Consulta ejecutada correctamente
+2024-10-21 18:10:06,435 DEBUG: Request to /api/bancoppel_sale_exercises/182 received with date range:  - , page: 1, page_size: 10000
+2024-10-21 18:10:06,435 INFO: Iniciando la conexión a la base de datos roleplay_demorp6
+2024-10-21 18:10:06,996 INFO: Conexión a la base de datos roleplay_demorp6 exitosa
+2024-10-21 18:10:07,088 DEBUG: Ejecutando la consulta: 
+            SELECT 
+                saex_id,
+                saex_user,
+                saex_useCases,
+                saex_useCasesTitle,
+                saex_username,
+                saex_retroContents,
+                saex_closingContents,
+                saex_DateTime,
+                saex_iterations,
+                saex_score,
+                saex_scoreData,
+                saex_sold,
+                saex_rp_id,
+                saex_rp_email,
+                saex_rp_activity,
+                saex_rp_client
+            FROM 
+                sale_exercises
+            WHERE 
+                saex_useCases IN (%s)
+                
+            LIMIT %s OFFSET %s
+         con parámetros: (182, 10000, 0)
+2024-10-21 18:10:13,624 DEBUG: Request to /api/bancoppel_sale_exercises/182 received with date range:  - , page: 1, page_size: 10000
+2024-10-21 18:10:13,625 INFO: Iniciando la conexión a la base de datos roleplay_demorp6
+2024-10-21 18:10:13,702 DEBUG: Starting Bancoppel database connection
+2024-10-21 18:10:13,702 DEBUG: Bancoppel database connection established
+2024-10-21 18:10:14,174 INFO: Conexión a la base de datos roleplay_demorp6 exitosa
+2024-10-21 18:10:14,267 DEBUG: Ejecutando la consulta: 
+            SELECT 
+                saex_id,
+                saex_user,
+                saex_useCases,
+                saex_useCasesTitle,
+                saex_username,
+                saex_retroContents,
+                saex_closingContents,
+                saex_DateTime,
+                saex_iterations,
+                saex_score,
+                saex_scoreData,
+                saex_sold,
+                saex_rp_id,
+                saex_rp_email,
+                saex_rp_activity,
+                saex_rp_client
+            FROM 
+                sale_exercises
+            WHERE 
+                saex_useCases IN (%s)
+                
+            LIMIT %s OFFSET %s
+         con parámetros: (182, 10000, 0)
+2024-10-21 18:10:22,717 INFO: Consulta ejecutada correctamente
+2024-10-21 18:11:54,441 DEBUG: Request to /api/bancoppel_sale_exercises/190 received with date range: 2023-01-01 - 2023-10-21, page: 1, page_size: 10000
+2024-10-21 18:11:54,442 INFO: Iniciando la conexión a la base de datos roleplay_demorp6
+2024-10-21 18:11:54,994 INFO: Conexión a la base de datos roleplay_demorp6 exitosa
+2024-10-21 18:11:55,087 DEBUG: Ejecutando la consulta: 
+            SELECT 
+                saex_id,
+                saex_user,
+                saex_useCases,
+                saex_useCasesTitle,
+                saex_username,
+                saex_retroContents,
+                saex_closingContents,
+                saex_DateTime,
+                saex_iterations,
+                saex_score,
+                saex_scoreData,
+                saex_sold,
+                saex_rp_id,
+                saex_rp_email,
+                saex_rp_activity,
+                saex_rp_client
+            FROM 
+                sale_exercises
+            WHERE 
+                saex_useCases IN (%s)
+                AND saex_DateTime BETWEEN %s AND %s
+            LIMIT %s OFFSET %s
+         con parámetros: (190, '2023-01-01', '2023-10-21', 10000, 0)
+2024-10-21 18:11:59,650 INFO: Consulta ejecutada correctamente
+2024-10-21 18:12:24,966 DEBUG: Starting Bancoppel database connection
+2024-10-21 18:12:24,966 DEBUG: Bancoppel database connection established
+2024-10-21 18:12:29,880 DEBUG: Request to /api/bancoppel_sale_exercises/190 received with date range: 2023-01-01 - 2024-10-21, page: 1, page_size: 10000
+2024-10-21 18:12:29,881 INFO: Iniciando la conexión a la base de datos roleplay_demorp6
+2024-10-21 18:12:30,436 INFO: Conexión a la base de datos roleplay_demorp6 exitosa
+2024-10-21 18:12:30,529 DEBUG: Ejecutando la consulta: 
+            SELECT 
+                saex_id,
+                saex_user,
+                saex_useCases,
+                saex_useCasesTitle,
+                saex_username,
+                saex_retroContents,
+                saex_closingContents,
+                saex_DateTime,
+                saex_iterations,
+                saex_score,
+                saex_scoreData,
+                saex_sold,
+                saex_rp_id,
+                saex_rp_email,
+                saex_rp_activity,
+                saex_rp_client
+            FROM 
+                sale_exercises
+            WHERE 
+                saex_useCases IN (%s)
+                AND saex_DateTime BETWEEN %s AND %s
+            LIMIT %s OFFSET %s
+         con parámetros: (190, '2023-01-01', '2024-10-21', 10000, 0)
+2024-10-21 18:12:40,530 INFO: Consulta ejecutada correctamente
+2024-10-21 18:13:00,074 DEBUG: Starting Bancoppel database connection
+2024-10-21 18:13:00,075 DEBUG: Bancoppel database connection established
+2024-12-26 16:55:31,531 DEBUG: Request to /api/dim_actividades received with ids: [243], date range:  - , page: 1, page_size: 10000
+2024-12-26 16:55:31,532 DEBUG: Ejecutando la consulta: 
+            SELECT 
+                saex_id,
+                saex_user,
+                saex_useCases,
+                saex_useCasesTitle,
+                saex_username,
+                saex_retroContents,
+                saex_closingContents,
+                saex_DateTime,
+                saex_iterations,
+                saex_score,
+                saex_scoreData,
+                saex_sold,
+                saex_rp_id,
+                saex_rp_email,
+                saex_rp_activity,
+                saex_rp_client
+            FROM 
+                sale_exercises
+            WHERE 
+                saex_useCases IN (%s)
+                
+            LIMIT %s OFFSET %s
+         con parámetros: (243, 10000, 0)
+2024-12-26 16:55:31,532 INFO: Iniciando la conexión a la base de datos roleplay_demorp6
+2024-12-26 16:55:32,152 INFO: Conexión a la base de datos roleplay_demorp6 exitosa
+2024-12-26 16:55:32,264 DEBUG: Ejecutando la consulta: 
+            SELECT 
+                saex_id,
+                saex_user,
+                saex_useCases,
+                saex_useCasesTitle,
+                saex_username,
+                saex_retroContents,
+                saex_closingContents,
+                saex_DateTime,
+                saex_iterations,
+                saex_score,
+                saex_scoreData,
+                saex_sold,
+                saex_rp_id,
+                saex_rp_email,
+                saex_rp_activity,
+                saex_rp_client
+            FROM 
+                sale_exercises
+            WHERE 
+                saex_useCases IN (%s)
+                
+            LIMIT %s OFFSET %s
+         con parámetros: (243, 10000, 0)
+2024-12-26 16:55:39,855 INFO: Consulta ejecutada correctamente
+2024-12-26 17:25:07,992 DEBUG: Request to /api/dim_actividades received with ids: [244], date range:  - , page: 1, page_size: 10000
+2024-12-26 17:25:07,993 DEBUG: Ejecutando la consulta: 
+            SELECT 
+                saex_id,
+                saex_user,
+                saex_useCases,
+                saex_useCasesTitle,
+                saex_username,
+                saex_retroContents,
+                saex_closingContents,
+                saex_DateTime,
+                saex_iterations,
+                saex_score,
+                saex_scoreData,
+                saex_sold,
+                saex_rp_id,
+                saex_rp_email,
+                saex_rp_activity,
+                saex_rp_client
+            FROM 
+                sale_exercises
+            WHERE 
+                saex_useCases IN (%s)
+                
+            LIMIT %s OFFSET %s
+         con parámetros: (244, 10000, 0)
+2024-12-26 17:25:07,994 INFO: Iniciando la conexión a la base de datos roleplay_demorp6
+2024-12-26 17:25:08,596 INFO: Conexión a la base de datos roleplay_demorp6 exitosa
+2024-12-26 17:25:08,709 DEBUG: Ejecutando la consulta: 
+            SELECT 
+                saex_id,
+                saex_user,
+                saex_useCases,
+                saex_useCasesTitle,
+                saex_username,
+                saex_retroContents,
+                saex_closingContents,
+                saex_DateTime,
+                saex_iterations,
+                saex_score,
+                saex_scoreData,
+                saex_sold,
+                saex_rp_id,
+                saex_rp_email,
+                saex_rp_activity,
+                saex_rp_client
+            FROM 
+                sale_exercises
+            WHERE 
+                saex_useCases IN (%s)
+                
+            LIMIT %s OFFSET %s
+         con parámetros: (244, 10000, 0)
+2024-12-26 17:25:12,680 INFO: Consulta ejecutada correctamente
+2024-12-26 17:32:26,137 DEBUG: Request to /api/rol_play_sim_extractor received with ids: [244], date range:  - , page: 1, page_size: 10000
+2024-12-26 17:32:26,139 INFO: Iniciando la conexión a la base de datos roleplay_demorp6
+2024-12-26 17:32:26,749 INFO: Conexión a la base de datos roleplay_demorp6 exitosa
+2024-12-26 17:32:26,863 DEBUG: Ejecutando la consulta: 
+            SELECT 
+                saex_id,
+                saex_user,
+                saex_useCases,
+                saex_useCasesTitle,
+                saex_username,
+                saex_retroContents,
+                saex_closingContents,
+                saex_DateTime,
+                saex_iterations,
+                saex_score,
+                saex_scoreData,
+                saex_sold,
+                saex_rp_id,
+                saex_rp_email,
+                saex_rp_activity,
+                saex_rp_client
+            FROM 
+                sale_exercises
+            WHERE 
+                saex_useCases IN (%s)
+                
+            LIMIT %s OFFSET %s
+         con parámetros: (244, 10000, 0)
+2024-12-26 17:32:31,280 INFO: Consulta ejecutada correctamente
+2024-12-26 18:17:38,757 DEBUG: Request to /api/rol_play_sim_extractor received with ids: [244], date range:  - , page: 1, page_size: 10000
+2024-12-26 18:17:38,759 INFO: Iniciando la conexión a la base de datos roleplay_demorp6
+2024-12-26 18:17:39,337 INFO: Conexión a la base de datos roleplay_demorp6 exitosa
+2024-12-26 18:17:39,430 DEBUG: Ejecutando la consulta: 
+            SELECT 
+                saex_id,
+                saex_user,
+                saex_useCases,
+                saex_useCasesTitle,
+                saex_username,
+                saex_retroContents,
+                saex_closingContents,
+                saex_DateTime,
+                saex_iterations,
+                saex_score,
+                saex_scoreData,
+                saex_sold,
+                saex_rp_id,
+                saex_rp_email,
+                saex_rp_activity,
+                saex_rp_client
+            FROM 
+                sale_exercises
+            WHERE 
+                saex_useCases IN (%s)
+                
+            LIMIT %s OFFSET %s
+         con parámetros: (244, 10000, 0)
+2024-12-26 18:17:42,498 INFO: Consulta ejecutada correctamente
+2024-12-26 18:17:48,162 DEBUG: Request to /api/dim_actividades received with ids: [244], date range:  - , page: 1, page_size: 10000
+2024-12-26 18:17:48,164 DEBUG: Ejecutando la consulta: 
+            SELECT 
+                saex_id,
+                saex_user,
+                saex_useCases,
+                saex_useCasesTitle,
+                saex_username,
+                saex_retroContents,
+                saex_closingContents,
+                saex_DateTime,
+                saex_iterations,
+                saex_score,
+                saex_scoreData,
+                saex_sold,
+                saex_rp_id,
+                saex_rp_email,
+                saex_rp_activity,
+                saex_rp_client
+            FROM 
+                sale_exercises
+            WHERE 
+                saex_useCases IN (%s)
+                
+            LIMIT %s OFFSET %s
+         con parámetros: (244, 10000, 0)
+2024-12-26 18:17:48,164 INFO: Iniciando la conexión a la base de datos roleplay_demorp6
+2024-12-26 18:17:48,756 INFO: Conexión a la base de datos roleplay_demorp6 exitosa
+2024-12-26 18:17:48,852 DEBUG: Ejecutando la consulta: 
+            SELECT 
+                saex_id,
+                saex_user,
+                saex_useCases,
+                saex_useCasesTitle,
+                saex_username,
+                saex_retroContents,
+                saex_closingContents,
+                saex_DateTime,
+                saex_iterations,
+                saex_score,
+                saex_scoreData,
+                saex_sold,
+                saex_rp_id,
+                saex_rp_email,
+                saex_rp_activity,
+                saex_rp_client
+            FROM 
+                sale_exercises
+            WHERE 
+                saex_useCases IN (%s)
+                
+            LIMIT %s OFFSET %s
+         con parámetros: (244, 10000, 0)
+2024-12-26 18:17:51,815 INFO: Consulta ejecutada correctamente
+2024-12-26 18:27:39,430 DEBUG: Request to /api/rol_play_sim_extractor received with ids: [244], date range:  - , page: 1, page_size: 10000
+2024-12-26 18:27:39,432 INFO: Iniciando la conexión a la base de datos roleplay_demorp6
+2024-12-26 18:27:40,002 INFO: Conexión a la base de datos roleplay_demorp6 exitosa
+2024-12-26 18:27:40,093 DEBUG: Ejecutando la consulta: 
+            SELECT 
+                saex_id,
+                saex_user,
+                saex_useCases,
+                saex_useCasesTitle,
+                saex_username,
+                saex_retroContents,
+                saex_closingContents,
+                saex_DateTime,
+                saex_iterations,
+                saex_score,
+                saex_scoreData,
+                saex_sold,
+                saex_rp_id,
+                saex_rp_email,
+                saex_rp_activity,
+                saex_rp_client
+            FROM 
+                sale_exercises
+            WHERE 
+                saex_useCases IN (%s)
+                
+            LIMIT %s OFFSET %s
+         con parámetros: (244, 10000, 0)
+2024-12-26 18:27:43,943 INFO: Consulta ejecutada correctamente
+2024-12-26 18:33:24,642 DEBUG: Request to /api/rol_play_sim_extractor received with ids: [244], date range:  - , page: 1, page_size: 10000
+2024-12-26 18:33:24,644 INFO: Iniciando la conexión a la base de datos roleplay_demorp6
+2024-12-26 18:33:25,257 INFO: Conexión a la base de datos roleplay_demorp6 exitosa
+2024-12-26 18:33:25,361 DEBUG: Ejecutando la consulta: 
+            SELECT 
+                saex_id,
+                saex_user,
+                saex_useCases,
+                saex_useCasesTitle,
+                saex_username,
+                saex_retroContents,
+                saex_closingContents,
+                saex_DateTime,
+                saex_iterations,
+                saex_score,
+                saex_scoreData,
+                saex_sold,
+                saex_rp_id,
+                saex_rp_email,
+                saex_rp_activity,
+                saex_rp_client
+            FROM 
+                sale_exercises
+            WHERE 
+                saex_useCases IN (%s)
+                
+            LIMIT %s OFFSET %s
+         con parámetros: (244, 10000, 0)
+2024-12-26 18:33:29,113 INFO: Consulta ejecutada correctamente
+2024-12-26 18:34:21,028 DEBUG: Request to /api/rol_play_sim_extractor received with ids: [244], date range:  - , page: 1, page_size: 10000
+2024-12-26 18:34:21,029 INFO: Iniciando la conexión a la base de datos roleplay_demorp6
+2024-12-26 18:34:21,605 INFO: Conexión a la base de datos roleplay_demorp6 exitosa
+2024-12-26 18:34:21,696 DEBUG: Ejecutando la consulta: 
+            SELECT 
+                saex_id,
+                saex_user,
+                saex_useCases,
+                saex_useCasesTitle,
+                saex_username,
+                saex_retroContents,
+                saex_closingContents,
+                saex_DateTime,
+                saex_iterations,
+                saex_score,
+                saex_scoreData,
+                saex_sold,
+                saex_rp_id,
+                saex_rp_email,
+                saex_rp_activity,
+                saex_rp_client
+            FROM 
+                sale_exercises
+            WHERE 
+                saex_useCases IN (%s)
+                
+            LIMIT %s OFFSET %s
+         con parámetros: (244, 10000, 0)
+2024-12-26 18:34:24,957 INFO: Consulta ejecutada correctamente
+2024-12-26 18:38:30,839 DEBUG: Request to /api/rol_play_sim_extractor received with ids: [244], date range:  - , page: 1, page_size: 10000
+2024-12-26 18:38:30,842 INFO: Iniciando la conexión a la base de datos roleplay_demorp6
+2024-12-26 18:38:31,446 INFO: Conexión a la base de datos roleplay_demorp6 exitosa
+2024-12-26 18:38:31,538 DEBUG: Ejecutando la consulta: 
+            SELECT 
+                saex_id,
+                saex_user,
+                saex_useCases,
+                saex_useCasesTitle,
+                saex_username,
+                saex_retroContents,
+                saex_closingContents,
+                saex_DateTime,
+                saex_iterations,
+                saex_score,
+                saex_scoreData,
+                saex_sold,
+                saex_rp_id,
+                saex_rp_email,
+                saex_rp_activity,
+                saex_rp_client
+            FROM 
+                sale_exercises
+            WHERE 
+                saex_useCases IN (%s)
+                
+            LIMIT %s OFFSET %s
+         con parámetros: (244, 10000, 0)
+2024-12-26 18:38:34,690 INFO: Consulta ejecutada correctamente
+2024-12-26 18:39:46,153 DEBUG: Request to /api/rol_play_sim_extractor received with ids: [244], date range:  - , page: 1, page_size: 10000
+2024-12-26 18:39:46,154 INFO: Iniciando la conexión a la base de datos roleplay_demorp6
+2024-12-26 18:39:46,720 INFO: Conexión a la base de datos roleplay_demorp6 exitosa
+2024-12-26 18:39:46,812 DEBUG: Ejecutando la consulta: 
+            SELECT 
+                saex_id,
+                saex_user,
+                saex_useCases,
+                saex_useCasesTitle,
+                saex_username,
+                saex_retroContents,
+                saex_closingContents,
+                saex_DateTime,
+                saex_iterations,
+                saex_score,
+                saex_scoreData,
+                saex_sold,
+                saex_rp_id,
+                saex_rp_email,
+                saex_rp_activity,
+                saex_rp_client
+            FROM 
+                sale_exercises
+            WHERE 
+                saex_useCases IN (%s)
+                
+            LIMIT %s OFFSET %s
+         con parámetros: (244, 10000, 0)
+2024-12-26 18:39:49,637 INFO: Consulta ejecutada correctamente
+2024-12-26 19:15:30,459 DEBUG: Request to /api/rol_play_sim_extractor received with ids: [244], date range:  - , page: 1, page_size: 10000
+2024-12-26 19:15:30,460 INFO: Iniciando la conexión a la base de datos roleplay_demorp6
+2024-12-26 19:15:31,100 INFO: Conexión a la base de datos roleplay_demorp6 exitosa
+2024-12-26 19:15:31,200 DEBUG: Ejecutando la consulta: 
+            SELECT 
+                saex_id,
+                saex_user,
+                saex_useCases,
+                saex_useCasesTitle,
+                saex_username,
+                saex_retroContents,
+                saex_closingContents,
+                saex_DateTime,
+                saex_iterations,
+                saex_score,
+                saex_scoreData,
+                saex_sold,
+                saex_rp_id,
+                saex_rp_email,
+                saex_rp_activity,
+                saex_rp_client
+            FROM 
+                sale_exercises
+            WHERE 
+                saex_useCases IN (%s)
+                
+            LIMIT %s OFFSET %s
+         con parámetros: (244, 10000, 0)
+2024-12-26 19:15:34,448 INFO: Consulta ejecutada correctamente
+2024-12-26 19:16:14,588 DEBUG: Request to /api/dim_actividades received with ids: [244], date range:  - , page: 1, page_size: 10000
+2024-12-26 19:16:14,589 DEBUG: Ejecutando la consulta: 
+            SELECT 
+                saex_id,
+                saex_user,
+                saex_useCases,
+                saex_useCasesTitle,
+                saex_username,
+                saex_retroContents,
+                saex_closingContents,
+                saex_DateTime,
+                saex_iterations,
+                saex_score,
+                saex_scoreData,
+                saex_sold,
+                saex_rp_id,
+                saex_rp_email,
+                saex_rp_activity,
+                saex_rp_client
+            FROM 
+                sale_exercises
+            WHERE 
+                saex_useCases IN (%s)
+                
+            LIMIT %s OFFSET %s
+         con parámetros: (244, 10000, 0)
+2024-12-26 19:16:14,590 INFO: Iniciando la conexión a la base de datos roleplay_demorp6
+2024-12-26 19:16:15,179 INFO: Conexión a la base de datos roleplay_demorp6 exitosa
+2024-12-26 19:16:15,271 DEBUG: Ejecutando la consulta: 
+            SELECT 
+                saex_id,
+                saex_user,
+                saex_useCases,
+                saex_useCasesTitle,
+                saex_username,
+                saex_retroContents,
+                saex_closingContents,
+                saex_DateTime,
+                saex_iterations,
+                saex_score,
+                saex_scoreData,
+                saex_sold,
+                saex_rp_id,
+                saex_rp_email,
+                saex_rp_activity,
+                saex_rp_client
+            FROM 
+                sale_exercises
+            WHERE 
+                saex_useCases IN (%s)
+                
+            LIMIT %s OFFSET %s
+         con parámetros: (244, 10000, 0)
+2024-12-26 19:16:18,346 INFO: Consulta ejecutada correctamente
+2024-12-26 19:55:39,198 DEBUG: Request to /api/rol_play_sim_extractor received with ids: [244], date range:  - , page: 1, page_size: 10000
+2024-12-26 19:55:39,199 INFO: Iniciando la conexión a la base de datos roleplay_demorp6
+2024-12-26 19:55:39,737 INFO: Conexión a la base de datos roleplay_demorp6 exitosa
+2024-12-26 19:55:39,827 DEBUG: Ejecutando la consulta: 
+            SELECT 
+                saex_id,
+                saex_user,
+                saex_useCases,
+                saex_useCasesTitle,
+                saex_username,
+                saex_retroContents,
+                saex_closingContents,
+                saex_DateTime,
+                saex_iterations,
+                saex_score,
+                saex_scoreData,
+                saex_sold,
+                saex_rp_id,
+                saex_rp_email,
+                saex_rp_activity,
+                saex_rp_client
+            FROM 
+                sale_exercises
+            WHERE 
+                saex_useCases IN (%s)
+                
+            LIMIT %s OFFSET %s
+         con parámetros: (244, 10000, 0)
+2024-12-26 19:55:42,472 INFO: Consulta ejecutada correctamente
+2024-12-26 20:02:39,831 DEBUG: Request to /api/rol_play_sim_extractor received with ids: [244], date range:  - , page: 1, page_size: 10000
+2024-12-26 20:02:39,832 INFO: Iniciando la conexión a la base de datos roleplay_demorp6
+2024-12-26 20:02:40,460 INFO: Conexión a la base de datos roleplay_demorp6 exitosa
+2024-12-26 20:02:40,566 DEBUG: Ejecutando la consulta: 
+            SELECT 
+                saex_id,
+                saex_user,
+                saex_useCases,
+                saex_useCasesTitle,
+                saex_username,
+                saex_retroContents,
+                saex_closingContents,
+                saex_DateTime,
+                saex_iterations,
+                saex_score,
+                saex_scoreData,
+                saex_sold,
+                saex_rp_id,
+                saex_rp_email,
+                saex_rp_activity,
+                saex_rp_client
+            FROM 
+                sale_exercises
+            WHERE 
+                saex_useCases IN (%s)
+                
+            LIMIT %s OFFSET %s
+         con parámetros: (244, 10000, 0)
+2024-12-26 20:02:44,712 INFO: Consulta ejecutada correctamente
+2024-12-26 20:10:47,761 DEBUG: Request to /api/rol_play_sim_extractor received with ids: [244], date range:  - , page: 1, page_size: 10000
+2024-12-26 20:10:47,762 INFO: Iniciando la conexión a la base de datos roleplay_demorp6
+2024-12-26 20:10:49,273 INFO: Conexión a la base de datos roleplay_demorp6 exitosa
+2024-12-26 20:10:49,443 DEBUG: Ejecutando la consulta: 
+            SELECT 
+                saex_id,
+                saex_user,
+                saex_useCases,
+                saex_useCasesTitle,
+                saex_username,
+                saex_retroContents,
+                saex_closingContents,
+                saex_DateTime,
+                saex_iterations,
+                saex_score,
+                saex_scoreData,
+                saex_sold,
+                saex_rp_id,
+                saex_rp_email,
+                saex_rp_activity,
+                saex_rp_client
+            FROM 
+                sale_exercises
+            WHERE 
+                saex_useCases IN (%s)
+                
+            LIMIT %s OFFSET %s
+         con parámetros: (244, 10000, 0)
+2024-12-26 20:10:56,281 INFO: Consulta ejecutada correctamente
+2024-12-26 21:12:32,534 DEBUG: Request to /api/dim_actividades received with ids: [244], date range:  - , page: 1, page_size: 10000
+2024-12-26 21:12:32,537 DEBUG: Ejecutando la consulta: 
+            SELECT 
+                saex_id,
+                saex_user,
+                saex_useCases,
+                saex_useCasesTitle,
+                saex_username,
+                saex_retroContents,
+                saex_closingContents,
+                saex_DateTime,
+                saex_iterations,
+                saex_score,
+                saex_scoreData,
+                saex_sold,
+                saex_rp_id,
+                saex_rp_email,
+                saex_rp_activity,
+                saex_rp_client
+            FROM 
+                sale_exercises
+            WHERE 
+                saex_useCases IN (%s)
+                
+            LIMIT %s OFFSET %s
+         con parámetros: (244, 10000, 0)
+2024-12-26 21:12:32,538 INFO: Iniciando la conexión a la base de datos roleplay_demorp6
+2024-12-26 21:12:34,599 INFO: Conexión a la base de datos roleplay_demorp6 exitosa
+2024-12-26 21:12:34,832 DEBUG: Ejecutando la consulta: 
+            SELECT 
+                saex_id,
+                saex_user,
+                saex_useCases,
+                saex_useCasesTitle,
+                saex_username,
+                saex_retroContents,
+                saex_closingContents,
+                saex_DateTime,
+                saex_iterations,
+                saex_score,
+                saex_scoreData,
+                saex_sold,
+                saex_rp_id,
+                saex_rp_email,
+                saex_rp_activity,
+                saex_rp_client
+            FROM 
+                sale_exercises
+            WHERE 
+                saex_useCases IN (%s)
+                
+            LIMIT %s OFFSET %s
+         con parámetros: (244, 10000, 0)
+2024-12-26 21:13:27,425 INFO: Consulta ejecutada correctamente
+2024-12-26 21:14:54,738 DEBUG: Request to /api/rol_play_sim_extractor received with ids: [244], date range:  - , page: 1, page_size: 10000
+2024-12-26 21:14:54,741 INFO: Iniciando la conexión a la base de datos roleplay_demorp6
+2024-12-26 21:14:55,498 INFO: Conexión a la base de datos roleplay_demorp6 exitosa
+2024-12-26 21:14:55,604 DEBUG: Ejecutando la consulta: 
+            SELECT 
+                saex_id,
+                saex_user,
+                saex_useCases,
+                saex_useCasesTitle,
+                saex_username,
+                saex_retroContents,
+                saex_closingContents,
+                saex_DateTime,
+                saex_iterations,
+                saex_score,
+                saex_scoreData,
+                saex_sold,
+                saex_rp_id,
+                saex_rp_email,
+                saex_rp_activity,
+                saex_rp_client
+            FROM 
+                sale_exercises
+            WHERE 
+                saex_useCases IN (%s)
+                
+            LIMIT %s OFFSET %s
+         con parámetros: (244, 10000, 0)
+2024-12-26 21:15:00,673 INFO: Consulta ejecutada correctamente
