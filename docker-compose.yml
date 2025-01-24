@@ -4,7 +4,7 @@ services:
   bancoppel_web:
     build:
       context: .  # Usa el Dockerfile en el directorio actual
-    container_name: bancoppel_dashboard
+    container_name: lily_dashboard
     restart: always
     ports:
       - "8012:7001"  # Redirige el puerto 7001 del contenedor al host
