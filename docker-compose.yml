@@ -15,7 +15,7 @@ services:
       - SERVER_IP=0.0.0.0  # Exponer en todas las interfaces
     volumes:
       - ./logs:/app/logs  # Logs persistentes
-      - ./AudiowebApp.pem:/app/AudiowebApp.pem  # Montar clave SSL dentro del contenedor
+      - ./app/config/AudiowebApp.pem:/app/config/AudiowebApp.pem  # Montar clave SSL en la carpeta config
     networks:
       - app-network
     env_file:
