@@ -1,5 +1,5 @@
 services:
-  bancoppel_web:
+  my_app_web:  # Cambié el nombre del servicio aquí
     build:
       context: .  # Usa el Dockerfile en el directorio actual
     container_name: lily_dashboard
@@ -24,6 +24,7 @@ services:
 networks:
   app-network:
     driver: bridge
+
 
 
 
