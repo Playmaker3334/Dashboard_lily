@@ -1,5 +1,3 @@
-version: '3.8'
-
 services:
   bancoppel_web:
     build:
@@ -13,9 +11,11 @@ services:
       - DB_USER=${DB_USER}
       - DB_PASSWORD=${DB_PASSWORD}
       - DB_NAME=${DB_NAME}
+      - DB_SSL_CA=${DB_SSL_CA}
       - SERVER_IP=0.0.0.0  # Exponer en todas las interfaces
     volumes:
       - ./logs:/app/logs  # Logs persistentes
+      - ./AudiowebApp.pem:/app/AudiowebApp.pem  # Montar clave SSL dentro del contenedor
     networks:
       - app-network
     env_file:
@@ -24,6 +24,7 @@ services:
 networks:
   app-network:
     driver: bridge
+
 
 
 
