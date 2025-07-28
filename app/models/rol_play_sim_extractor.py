@@ -172,7 +172,7 @@ class RolPlaySimExtractor:
                     modelo_match = re.search(r'<b>respuesta modelo</b>:\s*(.*?)(?=<b>|$)', retro_prompt, re.IGNORECASE)
                     resultado[f'Resp_Modelo{i}'] = modelo_match.group(1).strip() if modelo_match else "No aplica"
                     resultado[f'Info_Correcta{i}'] = self.extraer_info_correcta(retro_prompt)
-                    resultado[f'Puntos{i}'] = self.extraer_puntos(retro_prompt)
+                    resultado[f'Puntos{i}'] = contenido_pregunta.get('puntos', 'No aplica')
 
     def extraer_closing_contents(self, resultado):
         closing_contents_str = resultado.get('saex_closingContents', None)
