@@ -15,16 +15,16 @@ class DimActividadesExtractor:
         Luego procesa los resultados y almacena en self.datos_finales.
         """
         self.datos_finales = []
-
+    
         offset = (page - 1) * page_size
         format_strings = ','.join(['%s'] * len(ids))
-
+    
         date_filter = ""
         query_params = list(ids)
         if fecha_inicio and fecha_fin:
             date_filter = "AND saex_DateTime BETWEEN %s AND %s"
             query_params.extend([fecha_inicio, fecha_fin])
-
+    
         query = f"""
             SELECT 
                 saex_id,
@@ -50,15 +50,22 @@ class DimActividadesExtractor:
                 {date_filter}
             LIMIT %s OFFSET %s
         """
-
+    
         query_params.extend([page_size, offset])
-
+    
         try:
             logger.debug(f"Ejecutando la consulta: {query} con parámetros: {tuple(query_params)}")
             resultado = self.db_conn.ejecutar_query(query, tuple(query_params))
             if resultado:
                 self.procesar_resultados(resultado)
-                return self.datos_finales
+                # Filtrar actividades válidas
+                datos_filtrados = [
+                    d for d in self.datos_finales
+                    if d.get("Actividad_Nombre") and d.get("Actividad_Nombre") != "No aplica"
+                ]
+                # Eliminar duplicados
+                datos_sin_duplicados = self.eliminar_duplicados_json(datos_filtrados)
+                return datos_sin_duplicados
             else:
                 logger.info("No se encontraron resultados para los IDs proporcionados.")
                 return []
